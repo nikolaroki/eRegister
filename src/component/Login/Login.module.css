@@ -1,0 +1,82 @@
+.BackgroundJumbo{
+
+    background-color: #802820;
+    color:#FFFFE6;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    box-shadow: 0 5px 0 #ccc;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+
+.CenterInBox {
+width: 100%;
+text-align: center;
+}
+
+.FormContainer{
+    width: 30%;
+    margin:60px auto;
+    background-color: #FFFF88;
+    text-align: center;
+    box-shadow: 0 6px 93px #ccc;
+    border: 1px solid rgb(117, 23, 23);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+.Background{
+    background-image: url('../../assets/images/backtoschool33.jpg');
+    background-color: #cccccc; 
+    height: 950px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-blend-mode: soft-light;
+}
+
+.Input{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+
+}
+
+.Invalid{
+    border:1px solid red;
+    background-color: rgb(238, 171, 163);
+}

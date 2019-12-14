@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Register from './containers/Register/Register';
+import StudentView from './containers/Register/StudentView/StudentView';
+import AdminView from './containers/Register/AdminView/AdminView'
+import ParentView from './containers/Register/ParentView/ParentView';
+import TeacherView from './containers/Register/TeacherView/TeacherView'
+import { Route, Switch, withRouter } from 'react-router-dom';
+import Layout from './containers/Layout/Layout';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  render() {
+    return (
+      <div>
+        <Register/>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default withRouter(App);
